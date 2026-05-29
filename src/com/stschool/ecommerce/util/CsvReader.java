@@ -13,7 +13,6 @@ public class CsvReader {
 
     public List<Customer> getCustomersFromCsv() {
         List<Customer> customers = new ArrayList<>();
-
         /*
         1. BufferedReader
         2. Each line is a customers
