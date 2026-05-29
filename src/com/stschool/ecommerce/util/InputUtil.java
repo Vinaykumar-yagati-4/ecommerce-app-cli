@@ -6,6 +6,7 @@ public class InputUtil {
 
     private static final Scanner sc = new Scanner(System.in);
 
+
     public static int getIntInput(String message){
         System.out.println(message);
         return sc.nextInt();
