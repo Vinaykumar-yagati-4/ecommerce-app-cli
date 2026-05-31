@@ -20,7 +20,6 @@ public class CustomerServiceImpl implements CustomerService {
         1. check if customer exists
         2. if exist then throw exception
         3. if not exist then save customer
-
          */
 
         if(customerRepository.existByEmail(customer.getEmail()) != null)
