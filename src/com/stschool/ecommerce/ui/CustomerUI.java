@@ -37,5 +37,6 @@ public class CustomerUI{
         String email = InputUtil.getStringInput("Enter customer email: ");
         String password = InputUtil.getStringInput("Enter customer Password");
         return customerController.login(email,password);
+
     }
 }
