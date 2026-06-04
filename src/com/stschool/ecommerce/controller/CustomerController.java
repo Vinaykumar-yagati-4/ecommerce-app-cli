@@ -21,5 +21,6 @@ public class CustomerController {
 
     public Customer login(String email,String password) throws InvalidCredentialsException, CustomerNotFoundException{
         return customerService.login(email,password);
+
     }
 }
