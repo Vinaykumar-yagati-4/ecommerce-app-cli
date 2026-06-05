@@ -16,7 +16,6 @@ public class Main {
         CustomerController customerController = AppFactory.getCustomerControllerInstance();
         CustomerUI customerUI = new CustomerUI(customerController);
 
-
         try{
             Customer existingCustomer =  customerUI.loginCustomer();
             if(existingCustomer != null)
